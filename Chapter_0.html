@@ -8,14 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="main.js"></script>
 
   <title>第0章 開端</title>
 
 </head>
 
 <body>
-    <header>
+    <header id="header">
       <div class="background">背景：
         <button class="white"></button>
         <button class="green"></button>
@@ -24,17 +23,16 @@
         <button class="black"></button>
       </div>
       <div class="fontSize">文字：
-        <button class="bigBig">特大</button>
         <button class="big">大</button>
         <button class="middle">中</button>
         <button class="small">小</button>
       </div>
     </header>
 
-    <article>
+    <article id="article">
       <div class="title"><strong>第0章 開端</strong></div>
 
-      <div class="story">
+      <div class="story" id="story">
         <div>　　「唉！」輕輕嘆了一口氣，小樹不耐地捋平濕皺的襪子，雙足扭動探入，冬日黏膩的陰雨瞬吸而上，啪唧啪唧從腳掌灌滿足踝，像飽餐後不饜的水蛭，仍舊貪婪。</div>
         <div>　　跟水蛭一樣甩不開的，還有這一週的爛心情。</div>
         <div>　　用力打開殘破的「半自動傘」，雨水順著傘頂的裂縫，不斷滲進緊握傘柄的左手，右手拽著學校斜背包，此時風正強。</div>
@@ -47,11 +45,13 @@
       </div>
     </article>
 
-    <footer>
-      <div class="lastChapter" onclick="location.href='./Content.html';">上一章</div>
-      <div class="content" onclick="location.href='./Content.html';">章節目錄</div>
-      <div class="nextChapter" onclick="location.href='./Chapter_1.html';">下一章</div>
+    <footer id="footer">
+      <div class="lastChapter" id="lastChapter" onclick="location.href='./Content.html';">上一章</div>
+      <div class="content" id="content" onclick="location.href='./Content.html';">目錄</div>
+      <div class="nextChapter" id="nextChapter" onclick="location.href='./Chapter_1.html';">下一章</div>
     </footer>
 </body>
+
+<script src="main.js"></script>
 
 </html>
