@@ -1,25 +1,147 @@
 body
 {
-    display: block;
-    margin: 50px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    font-size: 20px
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
 }
 
-#blank
+header
 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background: #DDDDDD;
+  width: 100vw;
   height: 30px;
+  line-height: 30px;
 }
 
-#information
+/* 顏色按鈕 */
+.background
 {
-  margin-bottom: auto;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding-bottom: auto;
+  width: 50vw;
+  float: left;
+}
+.white
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#FFFFFF;
+  cursor: pointer;
+}
+.green
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#F3FDEC;
+  cursor: pointer;
+}
+.blue
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#E9F4FC;
+  cursor: pointer;
+}
+.gray
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#dddddd;
+  cursor: pointer;
+}
+.black
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#2C313C;
+  cursor: pointer;
+}
+
+/* 文字效果 */
+.fontSize
+{
+  width: 50vw;
+  float: right;
+}
+.bigBig,.big,.middle,.small
+{
+  cursor: pointer;
+}
+
+article
+{
+  float: top;
+  margin: 0px;
+  padding: 0px;
+  background: #FFFFFF;
+  width: 100vw;
+}
+
+.story
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.title
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  font-size: 28px;
+}
+
+footer
+{
+  margin: 0vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 25px;
+  background: #DDDDDD;
+}
+
+.lastChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.content
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.nextChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
 }
