@@ -2,7 +2,7 @@
 if(window.sessionStorage.getItem('fontSize') == 'big')
 {
   var element = document.getElementById("story");
-  element.style.fontSize = "18px";
+  element.style.fontSize = "20px";
   element.style.lineHeight = "2.2";
 
 }else if(window.sessionStorage.getItem('fontSize') == 'middle')
@@ -10,7 +10,7 @@ if(window.sessionStorage.getItem('fontSize') == 'big')
   var element = document.getElementById("story");
   element.style.fontSize = "16px";
   element.style.lineHeight = "2";
-  
+
 }else if(window.sessionStorage.getItem('fontSize') == 'small')
 {
   var element = document.getElementById("story");
@@ -186,7 +186,7 @@ $(document).ready(function(){
   //fontSize 更改
   $('.big').on('click',function(e){
     event.preventDefault();
-    $('.story').css('font-size','18px');
+    $('.story').css('font-size','20px');
     $('.story').css('line-height','2.2');
     window.sessionStorage.setItem("fontSize", 'big');
   });
