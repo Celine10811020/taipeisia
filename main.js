@@ -126,9 +126,11 @@ if(window.sessionStorage.getItem('background') == 'white')
 }
 
 
-$(document).ready(function(){
+$(document).ready(function()
+{
   //background 更改
-  $('.white').on('click',function(e){
+  $('.white').on('click',function(e)
+  {
     event.preventDefault();
     $('header').css({'background-color':'#DDDDDD','color':'#000000'});
     $('article').css({'background-color':'#FFFFFF','color':'#000000'});
@@ -139,7 +141,8 @@ $(document).ready(function(){
     window.sessionStorage.setItem("background", 'white');
   });
 
-  $('.green').on('click',function(e){
+  $('.green').on('click',function(e)
+  {
     event.preventDefault();
     $('header').css({'background-color':'#A9EEAD','color':'#000000'});
     $('article').css({'background-color':'#F3FDEC','color':'#000000'});
@@ -150,7 +153,8 @@ $(document).ready(function(){
     window.sessionStorage.setItem("background", 'green');
   });
 
-  $('.blue').on('click',function(e){
+  $('.blue').on('click',function(e)
+  {
     event.preventDefault();
     $('header').css({'background-color':'#61AEEE','color':'#000000'});
     $('article').css({'background-color':'#E9F4FC','color':'#000000'});
@@ -161,7 +165,8 @@ $(document).ready(function(){
     window.sessionStorage.setItem("background", 'blue');
   });
 
-  $('.gray').on('click',function(e){
+  $('.gray').on('click',function(e)
+  {
     event.preventDefault();
     $('header').css({'background-color':'#808080','color':'#000000'});
     $('article').css({'background-color':'#DDDDDD','color':'#000000'});
@@ -172,7 +177,8 @@ $(document).ready(function(){
     window.sessionStorage.setItem("background", 'gray');
   });
 
-  $('.black').on('click',function(e){
+  $('.black').on('click',function(e)
+  {
     event.preventDefault();
     $('header').css({'background-color':'#000000','color':'#DDDDDD'});
     $('article').css({'background-color':'#2C313C','color':'#DDDDDD'});
@@ -184,21 +190,24 @@ $(document).ready(function(){
   });
 
   //fontSize 更改
-  $('.big').on('click',function(e){
+  $('.big').on('click',function(e)
+  {
     event.preventDefault();
     $('.story').css('font-size','20px');
     $('.story').css('line-height','2.2');
     window.sessionStorage.setItem("fontSize", 'big');
   });
 
-  $('.middle').on('click',function(e){
+  $('.middle').on('click',function(e)
+  {
     event.preventDefault();
     $('.story').css('font-size','16px');
     $('.story').css('line-height','2');
     window.sessionStorage.setItem("fontSize", 'middle');
   });
 
-  $('.small').on('click',function(e){
+  $('.small').on('click',function(e)
+  {
     event.preventDefault();
     $('.story').css('font-size','14px');
     $('.story').css('line-height','1.8');

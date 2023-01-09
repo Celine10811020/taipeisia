@@ -1,0 +1,135 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background: #fafafa;
+}
+.tc {
+	text-align: center;
+}
+.pt5 {
+	padding-top: 5px;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+.row {
+	margin: 0px auto;
+}
+.wrapper {
+	background-color: #e7e7e7;
+	padding: 5px;
+	margin-top: 10px;
+}
+.box {
+	border: 1px solid #ccc;
+	margin: 1px;
+	background-color: #FFF;
+}
+.title {
+	margin: 0px 0px 0px 0px;
+	padding: 0 12px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
+	border: 1px solid #FFF;
+	border-bottom: 1px solid #e3dddc;
+	background-color: #f7f7f7;
+}
+ul.list {
+	margin: 0px;
+	padding: 0px;
+}
+ul.list li.c3 {
+  width: 50%;
+  text-align: left;
+  position: relative;
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+ul.list li.c4 {
+  width: 49%;
+  float: right;
+  position: relative;
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+  font-size: 14px;
+  white-space: nowrap;
+	overflow: hidden;
+}
+ul.list li a {
+	margin: 0px;
+	display: block;
+	padding: 12px 20px;
+	border-bottom: 1px solid #eeeeee;
+	color: #262626;
+	text-decoration: none;
+}
+.pic_txt_list {
+	margin: 0px;
+	display: block;
+	padding: 10px 0px 5px 10px;
+	height: 295px;
+	border-bottom: 1px solid #eeeeee;
+	overflow: hidden;
+	position: relative;
+}
+.pic_txt_list .pic {
+	width: 60px;
+	float: left;
+	display: block;
+	height: 80px;
+}
+.pic_txt_list .pic img {
+	width: 200px;
+	height: 286px;
+	background-color: #FFF;
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+.pic_txt_list h3 {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 65px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 400;
+	text-shadow: none;
+	color: #333;
+}
+.pic_txt_list p {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 220px;
+	color: #666;
+	font-size: 16px;
+	line-height: 22px;
+}
+.pic_txt_list p span {
+	color: #666;
+	font-size: 16px;
+	margin-right: 2px;
+}
+.footer {
+	clear: both;
+	border-top: 1px solid #CCC;
+	color: #999;
+	background: #ececec;
+	padding: 0px;
+	margin: 0px;
+}
+.footer p {
+	padding: 15px;
+	margin: 0px;
+}
+@media screen and (min-width: 1024px) {
+	.row {
+		width: 1024px;
+	}
+}

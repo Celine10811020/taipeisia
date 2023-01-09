@@ -80,8 +80,17 @@ article
   float: top;
   margin: 0px;
   padding: 3vw;
+  padding-top: 1vw;
   background: #FFFFFF;
   width: 94vw;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .story
@@ -98,6 +107,21 @@ article
   padding-bottom: 20px;
   text-align: center;
   font-size: 28px;
+}
+
+.picZhi img {
+	width: 200px;
+	height: 286px;
+	background-color: #FFF;
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+.picHeng img {
+	width: 286px;
+	height: 200px;
+	background-color: #FFF;
+	padding: 2px;
+	border: 1px solid #CCC;
 }
 
 footer
@@ -146,4 +170,26 @@ footer
   text-align: center;
   background: #FFFFFF;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .picZhi {
+    padding-right: 30px;
+    float: left;
+  }
+  .picHeng {
+    padding-right: 30px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .picZhi {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .picHeng {
+    padding-bottom: 20px;
+    text-align: center;
+  }
 }
