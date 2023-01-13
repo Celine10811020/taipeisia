@@ -102,15 +102,15 @@ ul.list li a {
 	padding: 15px;
 	margin: 0px;
 }
+
 .muLu{
 	padding: 10px;
 	padding-right: 15px;
-	height: 150px;
+	height: 160px;
 }
 .muLu p{
-	margin-top: 10px;
+	margin: 10px;
 }
-
 .muLu a:hover{
     text-decoration: underline;
 }
@@ -121,6 +121,7 @@ ul.list li a {
 	padding: 2px;
 	margin-left: 20px;
 	margin-right: 33px;
+	margin-top: 7px;
 	border: 1px solid #CCC;
 	float: left;
 }
@@ -129,12 +130,16 @@ ul.list li a {
 	height: 100px;
 	background-color: #FFF;
 	padding: 2px;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-right: 10px;
 	border: 1px solid #CCC;
 	float: left;
 }
+/*電腦*/
 @media screen and (max-width: 1024px) {
+	.wenZi{
+		margin-top: 15px;
+	}
 	.pic_txt_list {
 		margin: 0px;
 		display: block;
@@ -163,6 +168,7 @@ ul.list li a {
 		text-align: right;
 	}
 }
+/*手機*/
 @media screen and (min-width: 1024px) {
 	.row {
 		width: 1024px;
