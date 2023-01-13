@@ -130,15 +130,15 @@ ul.list li a {
 	height: 100px;
 	background-color: #FFF;
 	padding: 2px;
-	margin-top: 25px;
+	margin-top: 27px;
 	margin-right: 10px;
 	border: 1px solid #CCC;
 	float: left;
 }
-/*電腦*/
+/*手機*/
 @media screen and (max-width: 1024px) {
 	.wenZi{
-		margin-top: 15px;
+		margin-top: 5px;
 	}
 	.pic_txt_list {
 		margin: 0px;
@@ -168,10 +168,13 @@ ul.list li a {
 		text-align: right;
 	}
 }
-/*手機*/
+/*電腦*/
 @media screen and (min-width: 1024px) {
 	.row {
 		width: 1024px;
+	}
+	.wenZi{
+		margin-top: 15px;
 	}
 	.pic_txt_list {
 		margin: 0px;
