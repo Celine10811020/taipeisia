@@ -1,21 +1,33 @@
 //fontSize 初始值設定
-if(window.sessionStorage.getItem('fontSize') == 'big')
+if(window.sessionStorage.getItem('fontSize') == '24')
+{
+  var element = document.getElementById("story");
+  element.style.fontSize = "24px";
+  element.style.lineHeight = "2.4";
+
+}else if(window.sessionStorage.getItem('fontSize') == '20')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "20px";
   element.style.lineHeight = "2.2";
 
-}else if(window.sessionStorage.getItem('fontSize') == 'middle')
+}else if(window.sessionStorage.getItem('fontSize') == '16')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "16px";
   element.style.lineHeight = "2";
 
-}else if(window.sessionStorage.getItem('fontSize') == 'small')
+}else if(window.sessionStorage.getItem('fontSize') == '14')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "14px";
   element.style.lineHeight = "1.8";
+}else
+{
+  var element = document.getElementById("story");
+  element.style.fontSize = "16px";
+  element.style.lineHeight = "2";
+  window.sessionStorage.setItem("fontSize", '16');
 }
 
 //background 初始值設定
@@ -189,28 +201,58 @@ $(document).ready(function()
     window.sessionStorage.setItem("background", 'black');
   });
 
-  //fontSize 更改
+  //fontSize 更改 -- 14, 16, 20, 24
   $('.big').on('click',function(e)
   {
     event.preventDefault();
-    $('.story').css('font-size','20px');
-    $('.story').css('line-height','2.2');
-    window.sessionStorage.setItem("fontSize", 'big');
-  });
 
-  $('.middle').on('click',function(e)
-  {
-    event.preventDefault();
-    $('.story').css('font-size','16px');
-    $('.story').css('line-height','2');
-    window.sessionStorage.setItem("fontSize", 'middle');
+    if(window.sessionStorage.getItem('fontSize') == '20')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "24px";
+      element.style.lineHeight = "2.4";
+      window.sessionStorage.setItem("fontSize", '24');
+
+    }else if(window.sessionStorage.getItem('fontSize') == '16')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "20px";
+      element.style.lineHeight = "2.2";
+      window.sessionStorage.setItem("fontSize", '20');
+
+    }else if(window.sessionStorage.getItem('fontSize') == '14')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "16px";
+      element.style.lineHeight = "2";
+      window.sessionStorage.setItem("fontSize", '16');
+    }
   });
 
   $('.small').on('click',function(e)
   {
     event.preventDefault();
-    $('.story').css('font-size','14px');
-    $('.story').css('line-height','1.8');
-    window.sessionStorage.setItem("fontSize", 'small');
+
+    if(window.sessionStorage.getItem('fontSize') == '24')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "20px";
+      element.style.lineHeight = "2.2";
+      window.sessionStorage.setItem("fontSize", '20');
+
+    }else if(window.sessionStorage.getItem('fontSize') == '20')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "16px";
+      element.style.lineHeight = "2";
+      window.sessionStorage.setItem("fontSize", '16');
+
+    }else if(window.sessionStorage.getItem('fontSize') == '16')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "14px";
+      element.style.lineHeight = "1.8";
+      window.sessionStorage.setItem("fontSize", '14');
+    }
   });
 });

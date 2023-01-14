@@ -18,7 +18,7 @@ header
 /* 顏色按鈕 */
 .background
 {
-  width: 47vw;
+  width: 57vw;
   float: left;
   text-align: center;
 }
@@ -66,13 +66,16 @@ header
 /* 文字效果 */
 .fontSize
 {
-  width: 47vw;
+  width: 37vw;
   float: right;
   text-align: center;
 }
-.big,.middle,.small
+.big,.small
 {
+  width: 5vw;
   cursor: pointer;
+  text-align: center;
+  padding: 1px;
 }
 
 article
