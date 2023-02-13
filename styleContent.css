@@ -35,6 +35,10 @@ a {
 	border: 1px solid #FFF;
 	border-bottom: 1px solid #e3dddc;
 	background-color: #f7f7f7;
+	color: black;
+}
+.title a:hover{
+    text-decoration: underline;
 }
 ul.list {
 	margin: 0px;
