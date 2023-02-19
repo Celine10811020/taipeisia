@@ -201,7 +201,7 @@ footer
 @media screen and (min-width: 1024px) {
   .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
     padding-right: 30px;
-    float: left;
+    float: right;
   }
 }
 

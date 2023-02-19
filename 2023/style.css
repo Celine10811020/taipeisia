@@ -176,22 +176,14 @@ footer
 }
 
 @media screen and (min-width: 1024px) {
-  .picZhi {
+  .picZhi, .picHeng {
     padding-right: 30px;
-    float: left;
-  }
-  .picHeng {
-    padding-right: 30px;
-    float: left;
+    float: right;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .picZhi {
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .picHeng {
+  .picZhi, .picHeng {
     padding-bottom: 20px;
     text-align: center;
   }

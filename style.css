@@ -1,0 +1,21 @@
+body{
+  margin: 5vw;
+}
+
+.title {
+  text-align: center;
+}
+
+.book {
+  width: 200px;
+  text-align: center;
+  float: left;
+}
+
+.cover img {
+  width: 100px;
+  height: 153px;
+  background-color: #FFF;
+  padding: 2px;
+  border: 1px solid #CCC;
+}
