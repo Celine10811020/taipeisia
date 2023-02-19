@@ -108,6 +108,9 @@ ul.list li a {
 	padding: 15px;
 	margin: 0px;
 }
+.footer a:hover {
+	text-decoration: underline;
+}
 
 .Content {
 	border: 1px solid #ccc;

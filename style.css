@@ -19,3 +19,29 @@ body{
   padding: 2px;
   border: 1px solid #CCC;
 }
+
+.footer {
+	clear: both;
+	border-top: 1px solid #CCC;
+	color: #999;
+	background: #ececec;
+	padding: 0px;
+	margin: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer a {
+	color: #666;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+.footer p {
+	padding: 15px;
+	margin: 0px;
+}
+.tc {
+	text-align: center;
+}
