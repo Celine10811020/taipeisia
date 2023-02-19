@@ -177,7 +177,7 @@ footer
 
 @media screen and (min-width: 1024px) {
   .picZhi, .picHeng {
-    padding-right: 30px;
+    padding-left: 30px;
     float: right;
   }
 }
