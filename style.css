@@ -1,5 +1,8 @@
-body{
+.wrapper{
   margin: 5vw;
+  margin-bottom: 50px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .title {
@@ -18,6 +21,11 @@ body{
   background-color: #FFF;
   padding: 2px;
   border: 1px solid #CCC;
+}
+
+.clear{
+  clear: both;
+  float: none;
 }
 
 .footer {
