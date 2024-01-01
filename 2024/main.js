@@ -49,9 +49,6 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("lastChapter");
   element.style.background = "#FFFFFF";
   element.style.color = "#000000";
-  element = document.getElementById("content");
-  element.style.background = "#FFFFFF";
-  element.style.color = "#000000";
   element = document.getElementById("nextChapter");
   element.style.background = "#FFFFFF";
   element.style.color = "#000000";
@@ -80,9 +77,6 @@ if(window.sessionStorage.getItem('background') == 'white')
   element.style.background = "#A9EEAD";
   element.style.color = "#000000";
   element = document.getElementById("lastChapter");
-  element.style.background = "#F3FDEC";
-  element.style.color = "#000000";
-  element = document.getElementById("content");
   element.style.background = "#F3FDEC";
   element.style.color = "#000000";
   element = document.getElementById("nextChapter");
@@ -115,9 +109,6 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("lastChapter");
   element.style.background = "#E9F4FC";
   element.style.color = "#000000";
-  element = document.getElementById("content");
-  element.style.background = "#E9F4FC";
-  element.style.color = "#000000";
   element = document.getElementById("nextChapter");
   element.style.background = "#E9F4FC";
   element.style.color = "#000000";
@@ -146,9 +137,6 @@ if(window.sessionStorage.getItem('background') == 'white')
   element.style.background = "#808080";
   element.style.color = "#000000";
   element = document.getElementById("lastChapter");
-  element.style.background = "#DDDDDD";
-  element.style.color = "#000000";
-  element = document.getElementById("content");
   element.style.background = "#DDDDDD";
   element.style.color = "#000000";
   element = document.getElementById("nextChapter");
@@ -181,9 +169,6 @@ if(window.sessionStorage.getItem('background') == 'white')
   element = document.getElementById("lastChapter");
   element.style.background = "#3A3F4B";
   element.style.color = "#DDDDDD";
-  element = document.getElementById("content");
-  element.style.background = "#3A3F4B";
-  element.style.color = "#DDDDDD";
   element = document.getElementById("nextChapter");
   element.style.background = "#3A3F4B";
   element.style.color = "#DDDDDD";
@@ -212,7 +197,6 @@ $(document).ready(function()
     $('article').css({'background-color':'#FFFFFF','color':'#000000'});
     $('footer').css({'background-color':'#DDDDDD','color':'#000000'});
     $('.lastChapter').css({'background-color':'#FFFFFF','color':'#000000'});
-    $('.content').css({'background-color':'#FFFFFF','color':'#000000'});
     $('.nextChapter').css({'background-color':'#FFFFFF','color':'#000000'});
     $('.weakR').css({'background':'linear-gradient(to right, #DDDDDD, #DDDDDD, transparent)'});
     $('.weakLR').css({'background':'linear-gradient(to right, transparent, #DDDDDD, transparent)'});
@@ -226,7 +210,6 @@ $(document).ready(function()
     $('article').css({'background-color':'#F3FDEC','color':'#000000'});
     $('footer').css({'background-color':'#A9EEAD','color':'#000000'});
     $('.lastChapter').css({'background-color':'#F3FDEC','color':'#000000'});
-    $('.content').css({'background-color':'#F3FDEC','color':'#000000'});
     $('.nextChapter').css({'background-color':'#F3FDEC','color':'#000000'});
     $('.weakR').css({'background':'linear-gradient(to right, #A9EEAD, #A9EEAD, transparent)'});
     $('.weakLR').css({'background':'linear-gradient(to right, transparent, #A9EEAD, transparent)'});
@@ -240,7 +223,6 @@ $(document).ready(function()
     $('article').css({'background-color':'#E9F4FC','color':'#000000'});
     $('footer').css({'background-color':'#61AEEE','color':'#000000'});
     $('.lastChapter').css({'background-color':'#E9F4FC','color':'#000000'});
-    $('.content').css({'background-color':'#E9F4FC','color':'#000000'});
     $('.nextChapter').css({'background-color':'#E9F4FC','color':'#000000'});
     $('.weakR').css({'background':'linear-gradient(to right, #61AEEE, #61AEEE, transparent)'});
     $('.weakLR').css({'background':'linear-gradient(to right, transparent, #61AEEE, transparent)'});
@@ -254,7 +236,6 @@ $(document).ready(function()
     $('article').css({'background-color':'#DDDDDD','color':'#000000'});
     $('footer').css({'background-color':'#808080','color':'#000000'});
     $('.lastChapter').css({'background-color':'#DDDDDD','color':'#000000'});
-    $('.content').css({'background-color':'#DDDDDD','color':'#000000'});
     $('.nextChapter').css({'background-color':'#DDDDDD','color':'#000000'});
     $('.weakR').css({'background':'linear-gradient(to right, #808080, #808080, transparent)'});
     $('.weakLR').css({'background':'linear-gradient(to right, transparent, #808080, transparent)'});
@@ -268,7 +249,6 @@ $(document).ready(function()
     $('article').css({'background-color':'#2C313C','color':'#DDDDDD'});
     $('footer').css({'background-color':'#000000','color':'#DDDDDD'});
     $('.lastChapter').css({'background-color':'#3A3F4B','color':'#DDDDDD'});
-    $('.content').css({'background-color':'#3A3F4B','color':'#DDDDDD'});
     $('.nextChapter').css({'background-color':'#3A3F4B','color':'#DDDDDD'});
     $('.weakR').css({'background':'linear-gradient(to right, #000000, #000000, transparent)'});
     $('.weakLR').css({'background':'linear-gradient(to right, transparent, #000000, transparent)'});
