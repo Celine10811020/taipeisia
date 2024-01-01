@@ -7,6 +7,7 @@ body
 
 header
 {
+  padding-top: 5px;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
   width: 94vw;
@@ -79,12 +80,15 @@ header
 
 article
 {
-  float: top;
   margin: 0px;
   padding: 3vw;
   padding-top: 1vw;
   background: #FFFFFF;
   width: 93vw;
+  min-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 a{
@@ -143,7 +147,6 @@ a:hover{
 .character{
   margin-bottom: 5vw;
   display: flex;
-  align-items: stretch;
 }
 .discription{
   margin-top: 2vw;
@@ -193,7 +196,7 @@ footer
   cursor: pointer;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
   .picMap img{
     width: 30vw;
   }
@@ -204,9 +207,13 @@ footer
   .picZhi img{
     width: 25vw;
   }
+
+  .character{
+    align-items: stretch;
+  }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
   .picMap img{
     width: 80vw;
   }
@@ -216,5 +223,9 @@ footer
   }
   .picZhi img{
     width: 80vw;
+  }
+
+  .character{
+    flex-direction: column;
   }
 }

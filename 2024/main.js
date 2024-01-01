@@ -1,32 +1,79 @@
 //fontSize 初始值設定
-if(window.sessionStorage.getItem('fontSize') == '24')
+if(window.sessionStorage.getItem('fontSize') == '28')
+{
+  var element = document.getElementById("story");
+  element.style.fontSize = "28px";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "36px";
+    nodes[i].style.padding = "15px";
+  }
+}else if(window.sessionStorage.getItem('fontSize') == '24')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "24px";
-  element.style.lineHeight = "2.4";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "32px";
+    nodes[i].style.padding = "12px";
+  }
 
 }else if(window.sessionStorage.getItem('fontSize') == '20')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "20px";
-  element.style.lineHeight = "2.2";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "28px";
+    nodes[i].style.padding = "10px";
+  }
 
 }else if(window.sessionStorage.getItem('fontSize') == '16')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "16px";
-  element.style.lineHeight = "2";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "22px";
+    nodes[i].style.padding = "7px";
+  }
 
 }else if(window.sessionStorage.getItem('fontSize') == '14')
 {
   var element = document.getElementById("story");
   element.style.fontSize = "14px";
-  element.style.lineHeight = "1.8";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "18px";
+    nodes[i].style.padding = "5px";
+  }
 }else
 {
   var element = document.getElementById("story");
   element.style.fontSize = "16px";
-  element.style.lineHeight = "2";
+
+  var nodes = [];
+  nodes = document.querySelectorAll(".part");
+  for(var i=0; i<nodes.length; i++)
+  {
+    nodes[i].style.lineHeight = "22px";
+  }
+
   window.sessionStorage.setItem("fontSize", '16');
 }
 
@@ -260,25 +307,63 @@ $(document).ready(function()
   {
     event.preventDefault();
 
-    if(window.sessionStorage.getItem('fontSize') == '20')
+    if(window.sessionStorage.getItem('fontSize') == '24')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "28px";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "36px";
+        nodes[i].style.padding = "15px";
+      }
+
+      window.sessionStorage.setItem("fontSize", '28');
+    }else if(window.sessionStorage.getItem('fontSize') == '20')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "24px";
-      element.style.lineHeight = "2.4";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "32px";
+        nodes[i].style.padding = "12px";
+      }
+
       window.sessionStorage.setItem("fontSize", '24');
 
     }else if(window.sessionStorage.getItem('fontSize') == '16')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "20px";
-      element.style.lineHeight = "2.2";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "28px";
+        nodes[i].style.padding = "10px";
+      }
+
       window.sessionStorage.setItem("fontSize", '20');
 
     }else if(window.sessionStorage.getItem('fontSize') == '14')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "16px";
-      element.style.lineHeight = "2";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "22px";
+        nodes[i].style.padding = "7px";
+      }
+
       window.sessionStorage.setItem("fontSize", '16');
     }
   });
@@ -287,25 +372,63 @@ $(document).ready(function()
   {
     event.preventDefault();
 
-    if(window.sessionStorage.getItem('fontSize') == '24')
+    if(window.sessionStorage.getItem('fontSize') == '28')
+    {
+      var element = document.getElementById("story");
+      element.style.fontSize = "24px";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "32px";
+        nodes[i].style.padding = "12px";
+      }
+
+      window.sessionStorage.setItem("fontSize", '24');
+    }else if(window.sessionStorage.getItem('fontSize') == '24')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "20px";
-      element.style.lineHeight = "2.2";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "28px";
+        nodes[i].style.padding = "10px";
+      }
+
       window.sessionStorage.setItem("fontSize", '20');
 
     }else if(window.sessionStorage.getItem('fontSize') == '20')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "16px";
-      element.style.lineHeight = "2";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "22px";
+        nodes[i].style.padding = "7px";
+      }
+
       window.sessionStorage.setItem("fontSize", '16');
 
     }else if(window.sessionStorage.getItem('fontSize') == '16')
     {
       var element = document.getElementById("story");
       element.style.fontSize = "14px";
-      element.style.lineHeight = "1.8";
+
+      var nodes = [];
+      nodes = document.querySelectorAll(".part");
+      for(var i=0; i<nodes.length; i++)
+      {
+        nodes[i].style.lineHeight = "18px";
+        nodes[i].style.padding = "5px";
+      }
+
       window.sessionStorage.setItem("fontSize", '14');
     }
   });
