@@ -138,7 +138,7 @@ a:hover{
 .picMap{
   text-align: center;
 }
-.picZhi img{
+.picZhi img, .picMap img, .picOther img{
 	background-color: #FFF;
 	padding: 2px;
 	border: 1px solid #CCC;
