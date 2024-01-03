@@ -1,12 +1,10 @@
-body
-{
+body{
   margin: 0px;
   width: 99vw;
   height: 100vh;
 }
 
-header
-{
+header{
   padding-top: 5px;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
@@ -16,46 +14,40 @@ header
 }
 
 /* 顏色按鈕 */
-.background
-{
+.background{
   width: 57vw;
   float: left;
   text-align: center;
 }
-.white
-{
+.white{
   width: 5vw;
   height: 18px;
   border: 1px solid black;
   background:#FFFFFF;
   cursor: pointer;
 }
-.green
-{
+.green{
   width: 5vw;
   height: 18px;
   border: 1px solid black;
   background:#F3FDEC;
   cursor: pointer;
 }
-.blue
-{
+.blue{
   width: 5vw;
   height: 18px;
   border: 1px solid black;
   background:#E9F4FC;
   cursor: pointer;
 }
-.gray
-{
+.gray{
   width: 5vw;
   height: 18px;
   border: 1px solid black;
   background:#dddddd;
   cursor: pointer;
 }
-.black
-{
+.black{
   width: 5vw;
   height: 18px;
   border: 1px solid black;
@@ -64,22 +56,19 @@ header
 }
 
 /* 文字效果 */
-.fontSize
-{
+.fontSize{
   width: 37vw;
   float: right;
   text-align: center;
 }
-.big,.small
-{
+.big,.small{
   width: 5vw;
   cursor: pointer;
   text-align: center;
   padding: 1px;
 }
 
-article
-{
+article{
   margin: 0px;
   padding: 3vw;
   padding-top: 1vw;
